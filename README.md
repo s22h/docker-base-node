@@ -2,4 +2,14 @@
 
 A base Dockerfile for node development.
 
-Run with `docker run -d -p 3000:3000 -v [LOCAL SRC PATH]:/usr/local/app docker-base-node`
+## Build
+
+```
+docker build -t docker-base-node .
+```
+
+## Run
+
+```
+docker run -d -p 3000:3000 -v [LOCAL SRC PATH]:/usr/local/app docker-base-node
+```
