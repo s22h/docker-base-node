@@ -1,7 +1,7 @@
 {
-  "name": "pda",
-  "description": "PDA",
-  "version": "0.0.1",
+  "name": "docker-base-node",
+  "description": "A base Dockerfile for node development",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "start": "nodemon src/index.js"
